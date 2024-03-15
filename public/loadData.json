@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "recipe_name": "Big-Sandwitch-Hamburger",
+      "recipe_image": "https://i.ibb.co/Mpvv0Kr/front-view-burger-stand.jpg",
+      "short_description": "Classic Italian pasta dish with creamy sauce and crispy bacon",
+      "ingredients": ["Spaghetti", "Eggs", "Bacon", "Parmesan cheese", "Black pepper", "Salt"],
+      "preparing_time": "30 minutes",
+      "calories": 450
+    },
+    {
+      "id": 2,
+      "recipe_name": "Italian-Pasta",
+      "recipe_image": "https://i.ibb.co/gwLpwkp/authentic-italian-pasta.jpg",
+      "short_description": "Quick and healthy chicken stir-fry with vegetables",
+      "ingredients": ["Chicken breast", "Bell peppers", "Broccoli", "Carrots", "Soy sauce", "Garlic", "Ginger"],
+      "preparing_time": "25 minutes",
+      "calories": 350
+    },
+    {
+      "id": 3,
+      "recipe_name": "Pizza-With-Cheese",
+      "recipe_image": "https://i.ibb.co/zFbT6vz/9824651.jpg",
+      "short_description": "Flavorful vegetarian curry with assorted vegetables",
+      "ingredients": ["Potatoes", "Carrots", "Peas", "Cauliflower", "Coconut milk", "Curry powder", "Onion", "Garlic"],
+      "preparing_time": "40 minutes",
+      "calories": 300
+    },
+    {
+      "id": 4,
+      "recipe_name": "Italian-Spaghetti",
+      "recipe_image": "https://i.ibb.co/rmzkcVr/italian-spaghetti-with-tomato-sauce-pan.jpg",
+      "short_description": "Simple and refreshing Italian salad with tomatoes, mozzarella, and basil",
+      "ingredients": ["Tomatoes", "Fresh mozzarella cheese", "Fresh basil leaves", "Extra virgin olive oil", "Balsamic vinegar", "Salt", "Black pepper"],
+      "preparing_time": "15 minutes",
+      "calories": 200
+    },
+    {
+      "id": 5,
+      "recipe_name": "Macaroni-Pasta",
+      "recipe_image": "https://i.ibb.co/XDthWfZ/colorful-macaroni-pasta-bowl-spoons-trivet-gray-surface-top-view.jpg",
+      "short_description": "Classic homemade cookies with gooey chocolate chips",
+      "ingredients": ["All-purpose flour", "Butter", "Brown sugar", "White sugar", "Eggs", "Vanilla extract", "Baking soda", "Salt", "Chocolate chips"],
+      "preparing_time": "20 minutes",
+      "calories": 150
+    },
+    {
+      "id": 6,
+      "recipe_name": "Beef-Taco",
+      "recipe_image": "https://i.ibb.co/TMzHygD/fresh-beef-taco-wooden-table-with-sauce-generative-ai.jpg",
+      "short_description": "Healthy and delicious grilled salmon with lemon and herbs",
+      "ingredients": ["Salmon fillets", "Lemon", "Olive oil", "Garlic powder", "Dill", "Salt", "Black pepper"],
+      "preparing_time": "20 minutes",
+      "calories": 300
+    }
+  ]
+  
