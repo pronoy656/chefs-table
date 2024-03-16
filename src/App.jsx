@@ -24,22 +24,24 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
-      <Banner></Banner>
+      <div className="max-w-full mx-auto">
+        <Navbar></Navbar>
+        <Banner></Banner>
 
-      <div className="text-center mt-24">
-        <h1 className="text-4xl font-semibold mb-6">Our Recipes</h1>
-        <p className="text-base font-normal">
-          we've got something for everyone. From comforting classics to exotic
-          delights, each recipe is thoughtfully curated to bring joy to your
-          taste buds. <br /> Join us on a journey of flavor exploration and
-          let's create delicious memories together.{" "}
-        </p>
-      </div>
+        <div className="text-center mt-24">
+          <h1 className="text-4xl font-semibold mb-6">Our Recipes</h1>
+          <p className="text-base font-normal">
+            we've got something for everyone. From comforting classics to exotic
+            delights, each recipe is thoughtfully curated to bring joy to your
+            taste buds. <br /> Join us on a journey of flavor exploration and
+            let's create delicious memories together.{" "}
+          </p>
+        </div>
 
-      <div className="md:flex gap-x-6 mt-12">
-        <Recipes handleAddCook={handleAddCook}></Recipes>
-        <Carts carts={carts} setCarts={setCarts}></Carts>
+        <div className="md:flex gap-x-6 mt-12">
+          <Recipes handleAddCook={handleAddCook}></Recipes>
+          <Carts carts={carts} setCarts={setCarts}></Carts>
+        </div>
       </div>
     </>
   );
