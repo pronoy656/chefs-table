@@ -17,18 +17,17 @@ const Carts = ({ carts, setCarts }) => {
   };
 
   return (
-    <div className="md:w-1/3 border-2 border-red-700 p-8">
+    <div className="md:w-1/3 border rounded-2xl shadow-lg shadow-white p-8">
       <h1 className="text-3xl font-semibold text-center">
         Want to cook:{carts.length}
       </h1>
 
       <div className="border-b-2 mt-4"></div>
 
-      <div className="flex gap-x-20 text-lg font-medium mt-6">
-        <p>Name</p>
+      <div className="flex gap-x-20 text-lg font-medium mt-6 bg-red-200 p-2 rounded-xl">
+        <p className="ml-8">Name</p>
         <p>Time</p>
         <p>Calories</p>
-        <p>Button</p>
       </div>
       {carts.map((cart, index) => (
         <Cart

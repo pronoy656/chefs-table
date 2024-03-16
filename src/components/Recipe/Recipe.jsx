@@ -11,7 +11,7 @@ const Recipe = ({ recipe, handleAddCook }) => {
     id,
   } = recipe;
   return (
-    <div className="border border-indigo-600 rounded-2xl p-6 mt-3">
+    <div className=" rounded-2xl p-6 mt-7 shadow-xl shadow-white border">
       <img className="rounded-2xl" src={recipe_image} alt="" />
       <p className="text-2xl font-semibold mt-6">{recipe_name}</p>
       <p className="text-lg font-normal mt-4 text-[#878787]">
@@ -19,14 +19,14 @@ const Recipe = ({ recipe, handleAddCook }) => {
       </p>
       <div className="border-b-2 mt-4"></div>
       <div className="flex items-center justify-between mt-10">
-        <div className="flex items-center">
-          <p>
+        <div className="flex items-center gap-x-3">
+          <p className="text-2xl">
             <BsStopwatch />
           </p>
           <p className="text-[#878787] text-lg ">{preparing_time}</p>
         </div>
-        <div className="flex items-center">
-          <p>
+        <div className="flex items-center gap-x-3">
+          <p className="text-2xl">
             <MdOutlineLocalFireDepartment />
           </p>
           <p className="text-[#878787] text-lg ">{calories}:Calories</p>

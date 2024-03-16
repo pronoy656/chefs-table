@@ -5,8 +5,15 @@ import Carts from "./components/Carts/Carts";
 import Navbar from "./components/Navbar/Navbar";
 import Recipes from "./components/Recipes/Recipes";
 import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
+  const showToastMessage = () => {
+    toast.success("Success Notification !", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
+  };
+
   const [carts, setCarts] = useState([]);
 
   const handleAddCook = (recipe, id) => {

@@ -12,7 +12,7 @@ const Cart = ({ cart, clickDeleteCarts, currentCookAdd, index }) => {
             clickDeleteCarts(id);
             currentCookAdd(cart);
           }}
-          className="bg-[#FF0000] p-3 rounded-2xl"
+          className="bg-[#FF0000] p-3 rounded-2xl text-white"
         >
           Preparing
         </button>

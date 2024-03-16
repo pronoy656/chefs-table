@@ -12,7 +12,7 @@
       "id": 2,
       "recipe_name": "Italian-Pasta",
       "recipe_image": "https://i.ibb.co/gwLpwkp/authentic-italian-pasta.jpg",
-      "short_description": "Quick and healthy chicken stir-fry with vegetables",
+      "short_description": "Quick and healthy chicken stir-fry with spicy vegetables",
       "ingredients": ["Chicken breast", "Bell peppers", "Broccoli", "Carrots", "Soy sauce", "Garlic", "Ginger"],
       "preparing_time": "25 minutes",
       "calories": 350
@@ -21,7 +21,7 @@
       "id": 3,
       "recipe_name": "Pizza-With-Cheese",
       "recipe_image": "https://i.ibb.co/zFbT6vz/9824651.jpg",
-      "short_description": "Flavorful vegetarian curry with assorted vegetables",
+      "short_description": "Flavorful vegetarian delicious curry with assorted vegetables",
       "ingredients": ["Potatoes", "Carrots", "Peas", "Cauliflower", "Coconut milk", "Curry powder", "Onion", "Garlic"],
       "preparing_time": "40 minutes",
       "calories": 300

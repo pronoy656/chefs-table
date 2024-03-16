@@ -11,7 +11,7 @@ const Recipes = ({ handleAddCook, id }) => {
   });
 
   return (
-    <div className="md:w-2/3 border border-black rounded-2xl p-6">
+    <div className="md:w-2/3 border  shadow-lg shadow-white rounded-2xl p-6">
       <div className="grid md:grid-cols-2 gap-x-6">
         {recipes.map((recipe) => (
           <Recipe
