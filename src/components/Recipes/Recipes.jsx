@@ -16,7 +16,7 @@ const Recipes = ({ handleAddCook, id }) => {
         {recipes.map((recipe) => (
           <Recipe
             recipe={recipe}
-            key={id}
+            key={recipe.id}
             handleAddCook={handleAddCook}
           ></Recipe>
         ))}

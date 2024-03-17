@@ -9,6 +9,7 @@ const Recipe = ({ recipe, handleAddCook }) => {
     preparing_time,
     calories,
     id,
+    ingredients
   } = recipe;
   return (
     <div className=" rounded-2xl p-6 mt-7 shadow-xl shadow-white border">
@@ -16,6 +17,13 @@ const Recipe = ({ recipe, handleAddCook }) => {
       <p className="text-2xl font-semibold mt-6">{recipe_name}</p>
       <p className="text-lg font-normal mt-4 text-[#878787]">
         {short_description}
+      </p>
+      <div className="border-b-2 mt-4"></div>
+      <p className="mb-4 text-lg font-medium mt-6">Ingredients:{ingredients.length}</p>
+      <p>
+        {
+          ingredients.map(ingredi=><li><a href="" className="text-[#878787]">{ingredi}</a></li>)
+        }
       </p>
       <div className="border-b-2 mt-4"></div>
       <div className="flex items-center justify-between mt-10">
