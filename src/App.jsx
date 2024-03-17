@@ -15,6 +15,8 @@ function App() {
   const [carts, setCarts] = useState([]);
 
   const handleAddCook = (recipe, id) => {
+
+ 
     
     // console.log(recipe)
     const addCarts = [...carts, recipe];
@@ -23,9 +25,12 @@ function App() {
     const isExist = carts.find((cart) => cart.id == id);
     if (!isExist) {
       setCarts(addCarts);
-    } else {
-      toast('Already Added')
-      toast.warn('🦄 Wow so easy!', {
+      toast.success('Successfully Added',{
+        position: "top-center",
+      })
+    } 
+    else {
+      toast.warn('Already added', {
         position: "top-center",
         autoClose: 3000,
         hideProgressBar: false,
@@ -34,14 +39,14 @@ function App() {
         draggable: true,
         progress: undefined,
         theme: "dark",
-        transition: Bounce,
+        
         });
     }
   };
 
   return (
     <>
-      <div className="max-w-full mx-auto">
+      <div className="max-w-[1480px] mx-auto">
         <Navbar></Navbar>
         <Banner></Banner>
 
