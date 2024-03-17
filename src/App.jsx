@@ -7,16 +7,15 @@ import Recipes from "./components/Recipes/Recipes";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+
+
 function App() {
-  const showToastMessage = () => {
-    toast.success("Success Notification !", {
-      position: toast.POSITION.TOP_RIGHT,
-    });
-  };
+  
 
   const [carts, setCarts] = useState([]);
 
   const handleAddCook = (recipe, id) => {
+    
     // console.log(recipe)
     const addCarts = [...carts, recipe];
     // setCarts(addCarts);
@@ -25,7 +24,18 @@ function App() {
     if (!isExist) {
       setCarts(addCarts);
     } else {
-      <ToastContainer />;
+      toast('Already Added')
+      toast.warn('🦄 Wow so easy!', {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: Bounce,
+        });
     }
   };
 
@@ -44,7 +54,7 @@ function App() {
             let's create delicious memories together.{" "}
           </p>
         </div>
-
+             <ToastContainer></ToastContainer>
         <div className="md:flex gap-x-6 mt-12">
           <Recipes handleAddCook={handleAddCook}></Recipes>
           <Carts carts={carts} setCarts={setCarts}></Carts>
